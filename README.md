@@ -15,6 +15,8 @@ This project trained and evaluated several classification models to identify dif
 - The dataset comprises 16 numerical features of 13,611 beans, generated from high-resolution images of the beans. The features and are based on pixel area and geometric relationships, including area, axes lengths, eccentricity, solidity and several shape forms defined by mathematical formulae (see notebook).
 - The data was split into training and test sets, and then scaled using the sklearn `StandardScaler` as part of the pipeline.
 
+<img src="Images/Beans.png" width="70%">
+
 ## Principal Component Analysis
 - Principal Component Analysis was performed to see if dimensionality and training times could be reduced.
 - 95% of the variance could be explained by 4 principal components, which broadly represented 'Length', 'Width', 'Concavity' and 'Squareness':
